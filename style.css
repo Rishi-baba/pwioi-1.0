@@ -3,12 +3,70 @@
   padding: 0;
   box-sizing: border-box;
   color: aliceblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 html, 
 body {
   height: 100%;
   width: 100%;
-  background-color: black;
-  overflow-x: hidden;
+  /* background-color: black; */
 }
+#page1 video{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 0%;
+}
+#page1{
+  height: 100%;
+  width: 100%;
+}
+
+#box1{
+  height: 8%;
+  width: 100%;
+}
+#box1all{
+  height: 23%;
+  width: 100%;
+}
+#boxall{
+  height: 1px;
+  width: 100%;
+  background-color: peachpuff;
+}
+
+#box{
+  height: 1px;
+  width: 100%;
+  background-color: peachpuff;
+}
+
+
+
+
+
+
+
+.loader{
+  background-color: black;
+  color: white;
+  height: 100vh;
+  width: 100%;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  position: fixed;
+  top: 0;
+}
+.loader h2{
+  font-weight: 700;
+  font-size: 3vw;
+}
+
+
+
